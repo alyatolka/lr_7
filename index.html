@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <title>Лабораторная работа № 7</title>
+  
+  <style>
+    #xo {
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px;
+      height: 300px;
+      justify-content: space-between;
+      gap: 5px;
+      margin: 0 auto;
+    }
+    
+    .mole {
+      width: 94px;
+      height: 94px;
+      border: 1px solid black;
+    }
+    
+    .colorbox {
+      background-color: yellow;
+    }
+    </style>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  
+  <main role="main" class="container">
+    
+    <div class="card border-success my-4">
+
+      <div class="card-header text-white bg-success">Поймай крота</div>
+      <div class="card-body text-center">
+
+        <div id="xo">
+          <div class="mole" id="c1" onclick="Check(1)"></div>
+          <div class="mole" id="c2" onclick="Check(2)"></div>
+          <div class="mole" id="c3" onclick="Check(3)"></div>
+          <div class="mole" id="c4" onclick="Check(4)"></div>
+          <div class="mole" id="c5" onclick="Check(5)"></div>
+          <div class="mole" id="c6" onclick="Check(6)"></div>
+          <div class="mole" id="c7" onclick="Check(7)"></div>
+          <div class="mole" id="c8" onclick="Check(8)"></div>
+          <div class="mole" id="c9" onclick="Check(9)"></div>
+        </div>
+        <p id="win">У тебя 0 очков</p>
+      </main>
+      
+  <script src="script.js"></script>
+</body>
+</html>
